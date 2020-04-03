@@ -1,6 +1,7 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
 
+# 준석 커밋을위한
   # GET /posts
   # GET /posts.json
   def index
